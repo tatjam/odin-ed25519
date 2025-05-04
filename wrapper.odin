@@ -1,4 +1,4 @@
-package ed25519
+package ed25519_wrapper
 import "core:c"
 
 when ODIN_OS == .Windows do foreign import ed25519 "build/libed25519.lib"
