@@ -1,6 +1,6 @@
 mkdir build
 cd build
-gcc -DED25519_NO_NEED -c \
+gcc -DED25519_NO_SEED -c \
 ../ed25519-c/src/add_scalar.c \
 ../ed25519-c/src/fe.c \
 ../ed25519-c/src/ge.c \
